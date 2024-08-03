@@ -4,10 +4,76 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+        body {
+            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
+        }
+        .book-library {
+            background-color: #ffffff;
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .book {
+            display: flex;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .book img {
+            max-width: 100px;
+            margin-right: 20px;
+        }
+        .book-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .book-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .book-author {
+            color: #777777;
+            margin: 5px 0;
+        }
+        .book-price {
+            color: #2ecc71;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="book-library">
+        <div class="book">
+            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
+            <div class="book-details">
+                <div class="book-title">Spy in the Amber</div>
+                <div class="book-author">Author Name</div>
+                <div class="book-price">$10.99</div>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="Sacred Games">
+            <div class="book-details">
+                <div class="book-title">Sacred Games</div>
+                <div class="book-author">Author Name</div>
+                <div class="book-price">$12.99</div>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="Byomkesh Bakshi">
+            <div class="book-details">
+                <div class="book-title">Byomkesh Bakshi</div>
+                <div class="book-author">Author Name</div>
+                <div class="book-price">$9.99</div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
